@@ -1,0 +1,185 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 12rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ccced3;
+    font-weight: 100;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12rem;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    float: center;
+    padding: 100px;
+}
+
+.place-holder {
+    background-color: gray;
+    margin-right: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#f9faf8;
+    font-size: 18px;
+    width: 600px;
+}
+
+.main-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+.main-text {
+    color: #ccced3;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.description {
+    margin-left: 6rem;
+}
+
+.info-boxes {
+    background-color: white;
+    text-align: center;
+    padding: 100px;
+    padding-top: 10px;
+}
+
+.quote {
+    text-align: none;
+    background-color: #efe7eb;
+    padding: 90px;
+    padding-bottom: 70px;
+}
+
+.all-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.box {
+    width: 143px;
+    height: 143px;
+    border: solid #3882f6;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight:900;
+    color: #1f2937;
+}
+
+.main-quote p {
+    line-height: 1.4;
+    font-family: "Roboto", sans-serif; /* Explicitly set the font again */
+    font-size: 36px;
+    font-weight: 300; /* Matches the '300' in your HTML link */
+    margin: 0;
+    font-style: italic; 
+    display: flex;
+    justify-content: center; /* Usually looks better for multi-line quotes */
+}
+
+.name-of-quoter {
+    font-size: 18px;
+    margin-left: 56rem;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.blue-box {
+    background-color:#3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px 30px 100px;
+    gap: 4rem;
+    border-radius: 7px;
+}
+
+.outline {
+    border: solid #f9faf8;
+}
+
+.footer-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: -1rem;
+}
+
+.copyright {
+    background-color: #1f2937;
+    padding: 2rem;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
